@@ -24,8 +24,20 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+    align-content: flex-start;
+    padding: 10px;
 }
+
+a {
+    color: var(---color-white);
+    padding:6px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 /*header*/
 
 header {
@@ -105,5 +117,25 @@ img {
     position: relative;
 }
 
+.red {
+    color: var(--color-sconti);
+}
+
+.riga {
+    text-decoration: line-through;
+}
 
 /*footer*/
+
+.flex-footer1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flex-footer2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+   
+}
