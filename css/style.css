@@ -125,8 +125,37 @@ img {
     text-decoration: line-through;
 }
 
-/*footer*/
+.card-content:hover img.primary {
+    display:none;
+}
+.card-content:hover img.secondary{
+    display: inline-block;
+}
 
+.secondary {
+    display: none;
+}
+
+/*footer*/
+footer {
+    position: relative;
+    width: 100%;
+}
+
+
+.info1{
+    position:absolute;
+
+}
+
+.info2{
+    text-align: right;
+    
+   
+}
+
+
+/*
 .flex-footer1 {
     display: flex;
     flex-flow: row wrap;
@@ -139,3 +168,4 @@ img {
     justify-content: flex-end;
    
 }
+*/
