@@ -145,12 +145,12 @@ footer {
 
 .info1{
     position:absolute;
-
+    padding: 20px;
 }
 
 .info2{
     text-align: right;
-    
+    padding: 20px;;
    
 }
 
