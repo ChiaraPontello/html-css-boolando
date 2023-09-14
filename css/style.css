@@ -5,8 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(---color-white);
+}
+
 .container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 10px 20px;
+    
 }
 
 :root {
@@ -143,7 +151,7 @@ footer {
     position: relative;
     width: 100%;
     background-color: var(--color-black);
-    
+    color: var(--color-white);
 }
 
 
@@ -151,6 +159,7 @@ footer {
 .info1{
     position:absolute;
     padding: 20px;
+    
 }
 
 .info2{
