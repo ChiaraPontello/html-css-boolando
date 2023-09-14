@@ -1,6 +1,4 @@
-.debug {
-    border: 1px solid black;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -144,7 +142,10 @@ img {
 footer {
     position: relative;
     width: 100%;
+    background-color: var(--color-black);
+    
 }
+
 
 
 .info1{
@@ -154,22 +155,8 @@ footer {
 
 .info2{
     text-align: right;
-    padding: 20px;;
+    padding: 20px;
    
 }
 
 
-/*
-.flex-footer1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-}
-
-.flex-footer2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-   
-}
-*/
