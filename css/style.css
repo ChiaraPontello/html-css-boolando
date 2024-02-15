@@ -23,6 +23,7 @@ body {
     --color-sosten: rgb(0, 128, 0);
     --color-black: rgb(26, 26, 26);
     --color-white: rgb(255, 255, 255);
+    --color-blu: (254, 254, 254);
 }
 
 .a-flex {
